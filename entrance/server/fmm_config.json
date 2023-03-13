@@ -1,0 +1,19 @@
+{
+  "input": {
+    "network": {
+      "file": "../data/cities/chengdu/edges.shp",
+      "id": "fid",
+      "source": "u",
+      "target": "v"
+    },
+    "ubodt": {
+      "file": "../data/cities/chengdu/ubodt.bin"
+    }
+  },
+  "model": "fmm",
+  "parameters": {
+    "k": 16,
+    "r": 0.003,
+    "e": 0.0005
+  }
+}
